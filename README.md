@@ -1,5 +1,6 @@
-#Pls check if virtualization is *enabled* in your BIOS
-If not, pls enable it
+Pls check if virtualization is *enabled* in your BIOS
+If not, pls enable it.
+
 Steps are as follows:
 Press F2 key at startup BIOS Setup.
 Press the right arrow key to System Configuration tab, Select Virtualization Technology and then press the Enter key.
