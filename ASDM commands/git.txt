@@ -1,0 +1,42 @@
+git --version
+git config --global user.name "KNIK2309"
+git config --global user.name "nikitakhetade@gmail.com"
+mkdir git_workspace
+cd git_workspace/
+
+repository --> click on clone or download --> copy the download
+
+git clone link
+ls
+cd code/
+touch hello.java
+gedit hello.java
+git add hello.java
+git commit -m "first java program" hello.java
+git push -u origin master
+
+//for branching
+
+git branch 
+git branch b1
+git checkout b1
+git branch
+git add hello.java
+ls
+git commit -m "dummy" 
+
+// to merge two branch go to master branch
+git checkout master
+git merge b1
+git log
+
+//to add new branch to repository
+git checkout b2
+git push -set-upstream origin b2
+
+//to delete the branch
+git checkout master
+git branch -d b2
+
+
+

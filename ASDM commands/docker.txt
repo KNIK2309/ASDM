@@ -1,0 +1,25 @@
+//how to create our own dockerfile
+gedit dockerfile
+
+//dockerfile
+FROM ubuntu 
+RUN apt get update -y && apt get install gcc -y
+RUN mkdir /docdemo
+COPY abc/docdemo/
+CMD ["/docdemo/abc"]
+
+gedit hi.c
+ 
+hi.c will have small c program
+
+gcc -0 abc hi.c
+sudo apt install gcc
+sudo docker build . -t asd
+sudo docker run asd
+
+//for already present image
+sudo docker pull ubuntu
+sudo docker run ubuntu
+sudo docker images
+
+
