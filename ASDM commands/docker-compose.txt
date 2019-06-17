@@ -1,0 +1,25 @@
+//create app folder ------------app/index.html
+create dockerfile
+//dockerfile
+FROM httpd
+COPY ./app/usr/local/apache/htdocs/
+
+//next commands
+docker build -t image1
+create docker -compose.yml
+
+//compose.yml
+version:'3'
+services:
+         webapp:
+		        image:
+				      image1
+			    ports:
+				      8100:80
+					  
+//
+docker -compose up -d
+
+//go to firefox then type localhost:8100
+
+docker -compose down
