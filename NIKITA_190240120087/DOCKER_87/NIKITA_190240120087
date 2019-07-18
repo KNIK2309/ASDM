@@ -1,0 +1,36 @@
+root@3574e817d12d:/# history
+    1  apt-get install -y node js
+    2  apt-get install -y nodejs
+    3  apt-get update
+    4  apt-get install -y nodejs
+    5  node -v
+    6  history
+
+root@3574e817d12d:/# exit
+exit
+nikita@nikita-VirtualBox:~$ history
+    1  service --status -all|
+    2  service --status -all
+    3  service -status -all
+    4  service --status -all
+    5  service --status-all
+    6  dbkg
+    7  dpkg
+    8  ps -elf
+    9  who -r
+   10  dpkg --list
+   11  ** #uname -r
+   12  uname -r
+   13  uname -a
+   14  hostnamectl
+   15  ps -ef
+   16  rpm -qa
+   17  sudo apt install rpm
+   18  id -nG
+   19  docker run hello-world
+   20  docker pull ubuntu
+   21  docker run ubuntu
+   22  docker images
+   23  docker run -it ubuntu
+   24  history
+

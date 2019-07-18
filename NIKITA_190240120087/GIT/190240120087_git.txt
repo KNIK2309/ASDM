@@ -1,0 +1,22 @@
+ 1  gedit Hello.c
+ 2  gcc Hello.c
+ 3  sudo apt install gcc
+ 4  gcc Hello.c
+ 5  ./a.out
+ 6  clear
+ 7  gedit Hello.c
+ 8  gedit Hello.c &
+ 9  git add Hello.c
+ 10  git commit -m "C-Programs"
+ 11  git config --global --edit
+ 12  git commit -m "C-Programs"
+ 13  git config --global --edit
+ 14  sudo git commit -m "C-Programs"
+ 15  git config --global user.email "niharks8@gmail.com"
+ 16  git config --global user.name "nkul8"
+ 17  sudo git commit -m "C-Programs"
+ 18  git commit -m "first commit"
+ 19  sudo git commit -m "first commit"
+ 20  git remote add origin https://github.com/nkul8/C-Programs.git
+ 21  git push -u origin master
+

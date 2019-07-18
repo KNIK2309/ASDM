@@ -21,8 +21,8 @@ public class TestSelenium {
 		 
 		 WebElement password = driver.findElement(By.id("pass"));	
 		 
-		 email.sendKeys("lussyden");
-		 password.sendKeys("sonu.khetade@gmail.com");
+		 email.sendKeys("7709749606");
+		 password.sendKeys("rutujakelkar");
 		 System.out.println("Text Field Set");
 		 
 		 
